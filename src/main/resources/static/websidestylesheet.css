@@ -6,7 +6,7 @@
     height: 600px;
     width: 80%;
     margin: auto;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", serif;
 }
 ::selection {
     background-color: #e3ca98;
@@ -36,7 +36,8 @@ a:hover {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0
+    rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .dropdown-content a {
@@ -62,13 +63,12 @@ a:hover {
 .navi::first-line{
     font-weight: bold;
     font-size: 22px;
-    font-family: "Al Nile";
+    font-family: "Al Nile", serif;
 
 }
 .navi {
     background-color: antiquewhite;
     padding: 10px;
-    text-align: left;
     grid-row: 2;
     grid-column: 1 / 4;
     text-align: center;
