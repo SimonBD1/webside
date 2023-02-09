@@ -16,7 +16,7 @@ a:hover {
 }
 
 
-.dropbtn {
+.drop-button {
     background-color: #d4bcd5;
     color: black;
     padding: 10px;
@@ -48,7 +48,7 @@ a:hover {
 }
 .dropdown-content a:hover {background-color: #4a81ce;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #d2c9c9;}
+.dropdown:hover .drop-button {background-color: #d2c9c9;}
 
 
 .header {
